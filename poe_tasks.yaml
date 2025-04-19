@@ -1,0 +1,14 @@
+
+tasks:
+    check-lint:
+        help: "check code lint"
+        shell: "ruff check"
+
+    fix-lint:
+        help: "fix code lint"
+        shell: "ruff format"
+
+    run-tests:
+        help: "run unit tests"
+        shell: "pytest"
+
