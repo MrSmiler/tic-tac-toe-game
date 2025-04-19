@@ -11,4 +11,8 @@ tasks:
     run-tests:
         help: "run unit tests"
         shell: "pytest"
+    
+    static-check:    
+        help: "check type annotations"
+        shell: "mypy --strict src"
 
