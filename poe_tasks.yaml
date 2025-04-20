@@ -14,5 +14,5 @@ tasks:
     
     static-check:    
         help: "check type annotations"
-        shell: "mypy --strict src"
+        shell: "mypy --strict tic_tac_toe_game"
 
